@@ -1,9 +1,11 @@
-const character = 'mario';
+const char = "luiggi";
 
-console.log(character);
+console.log(char);
 
-const inputs = document.querySelectorAll('input');
+const inputs = document.querySelectorAll("input");
 
-inputs.forEach(input => {
-  console.log(input);
-});
+console.log(inputs);
+
+inputs.forEach((input) => console.log(input));
+
+console.log("test");
