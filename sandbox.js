@@ -1,14 +1,11 @@
-var character = 'mario';
+var char = "mario";
 var age = 30;
-var isBlackBelt = false;
-// character = 20;
-character = 'luigi';
-// age = 'yoshi';
-age = 40;
-// isBlackBelt = 'yes';
-isBlackBelt = true;
-var area = function (diameter) {
-    return diameter * Math.PI;
+var isBalckBelt = false;
+//char = 20;
+char = "luigi";
+age = 40.4;
+isBalckBelt = false;
+var circ = function (d) {
+    return d * Math.PI;
 };
-// console.log(area('hello'));
-console.log(area(7.5));
+console.log(circ(age));
