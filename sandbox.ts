@@ -1,24 +1,29 @@
-let age: any = 25;
+let age: any;
 
+age = 30;
+
+console.log({ age });
+
+age = ["20"];
+console.log({ age });
 age = true;
-console.log(age);
-age = 'hello';
-console.log(age);
-age = { name: 'luigi' };
-console.log(age);
+console.log({ age });
 
 let mixed: any[] = [];
+mixed.push("mario");
+mixed.push(true);
+mixed.push(20);
 
-mixed.push(5);
-mixed.push('mario');
-mixed.push(false);
-console.log(mixed);
+console.log({ mixed });
 
-let ninja: { name: any, age: any };
+let ninja: {
+  name: any;
+  age: any;
+};
 
-ninja = { name: 'yoshi', age: 25 };
-console.log(ninja);
+ninja = { name: "yoshi", age: 15 };
 
-ninja = { name: 25, age: 'yoshi' };
-console.log(ninja);
+console.log({ ninja });
 
+ninja = { name: 10, age: true };
+console.log({ ninja });
